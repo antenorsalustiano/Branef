@@ -1,0 +1,6 @@
+@BRANEF_HostAddress = http://localhost:5081
+
+GET {{BRANEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BRANEF.Domain\BRANEF.Domain.csproj" />
+    <ProjectReference Include="..\BRANEF.Infra\BRANEF.Infra.csproj" />
+    <ProjectReference Include="..\BRANEF.Shared\BRANEF.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

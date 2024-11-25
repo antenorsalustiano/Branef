@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BRANEF.Domain/1.0.0": {
+        "dependencies": {
+          "BRANEF.Shared": "1.0.0"
+        },
+        "runtime": {
+          "BRANEF.Domain.dll": {}
+        }
+      },
+      "BRANEF.Shared/1.0.0": {
+        "runtime": {
+          "BRANEF.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BRANEF.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BRANEF.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
